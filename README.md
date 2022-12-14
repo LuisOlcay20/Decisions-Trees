@@ -73,10 +73,12 @@ consiguiente, imputamos los datos a través del comando “rfImpute” que para 
 continuos, el valor imputado es el promedio ponderado de las observaciones que no faltan, 
 en donde los pesos son las proximidades. Y, para predictores categóricos, el valor imputado 
 es la categoría con la mayor proximidad promedio.
+
 El modelo posee los siguientes hiperparámetros:
 • mtry = 4
 • trees = 2000
 • min_n = 40
+
 A través de los gráficos podemos observar como independiente al valor del min_n y ante un 
 alto número de trees, la importancia del número de predictores seleccionados (mtry) en el 
 valor del acurracy es casi nula. Sin embargo, cuando solo se utiliza solo 1 tree, el mtry 
