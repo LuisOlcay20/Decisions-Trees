@@ -5,14 +5,7 @@ date: "2022-12-14"
 output: html_document
 ---
 
----
-title: "Tarea 2"
-author: "Luis Olcay e Ignacio Torres"
-date: "2022-15-13"
-output:
-  pdf_document: default
-  word_document: default
----
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
