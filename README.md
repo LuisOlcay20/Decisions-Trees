@@ -1,5 +1,5 @@
 # Decisions Trees
- Se aplica un decision tree/ bagging tree/ random forest para predecir un accidente cardio vascular.
+ Se aplica un decision tree/ bagging tree/ random forest para predecir un accidente cerebrovascular.
  
  A partir del primer árbol expuesto (sin podar), se pueden inferir las siguientes conclusiones:
 • La variable más importante a la hora de predecir un stroke es la edad.
