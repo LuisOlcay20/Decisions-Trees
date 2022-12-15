@@ -84,7 +84,7 @@ stroke_cv <- rsample::vfold_cv(stroke_train, v=10, strata = stroke)
 
 ```
 
-#### d) Ajustamos un árbol de clasificación a la muestra de entrenamiento, considerando los siguientes valores de los hiperparámetros: cost complexity = 0, tree depth = 20 , min n = 15.
+#### Ajustamos un árbol de clasificación a la muestra de entrenamiento, considerando los siguientes valores de los hiperparámetros: cost complexity = 0, tree depth = 20 , min n = 15.
 
 ```{r}
 #Especificación del modelo
